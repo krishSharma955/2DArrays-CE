@@ -22,5 +22,6 @@ public class MaximumElement {
             }
         }
         System.out.println("Maximum Element: " +max);
+        sc.close();
     }
 }
