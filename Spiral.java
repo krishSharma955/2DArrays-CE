@@ -16,9 +16,15 @@ public class Spiral {
                 str += matrix[i][endCol];
             }
             for(int j = endCol-1; j>=startCol; j--) {
+                if(startRow==endRow) {
+                    break;
+                }
                 str += matrix[endRow][j];
             }
             for(int i = endRow-1; i>=startRow+1; i--) {
+                if(startCol==endCol) {
+                    break;
+                }
                 str += matrix[i][startCol];
             }
             startCol++;
