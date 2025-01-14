@@ -1,2 +1,2 @@
 # 2D Arrays
-All the 2DArrays codes are available here.
+This repository contains Java code implementations for various 2D-array related problems and concepts.
